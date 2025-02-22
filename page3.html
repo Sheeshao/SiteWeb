@@ -5,6 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in </title>
+    <style>
+        #terms:hover{
+            color: red;
+            text-decoration: underline;
+        }
+        #terms :active{
+            color: blue;
+        }
+        #terms{
+            color: blue;
+            font-style: italic;
+            
+        }
+    </style>
 
 </head>
 <body>
@@ -15,19 +29,19 @@
         <!-- "Name represents a variable for input(user)"-->
         <div>
             <label for="firstname">First name: </label>
-            <input type="text" id="firsname" placeholder="e.g john" required>
+            <input type="text" id="firsname" name="firstname"placeholder="e.g john" required>
         </div>
         <br>
 
         <div>
             <label for="pass">Enter password: </label>
-            <input type="password" id="pass" placeholder="password"required maxlength="20">
+            <input type="password" id="pass" name="passw"placeholder="password"required maxlength="20">
         </div>
         <br>
 
         <div>
             <label for="mail">Enter mail: </label>
-            <input type="email" id="mail " name="name" placeholder="Input email">
+            <input type="email" id="mail " name="mail" placeholder="Input email">
         </div>
         <br>
 
@@ -47,15 +61,21 @@
 
         <div>
 
-            <input type="radio" name="title">
-            <label>Male </label>
+            <input type="radio" id="male" name="title">
+            <label for="male">Male </label>
     
-            <input type="radio" name="title">
-            <label>Female </label>
+            <input type="radio"  id="fmale"name="title">
+            <label for="fmale">Female </label>
 
-            <input type="radio" name="title">
-            <label>Prefer not to say</label> 
+            <input type="radio" id="customg" name="title">
+            <label for="customg">Prefer not to say</label> 
             
+        </div>
+        <br> 
+
+        <div>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Yes, I agree to <span id="terms">terms and condition</span> in this site.</label>
         </div>
         <br>
 
