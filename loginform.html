@@ -4,44 +4,46 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log in </title>
+    <title>Log into kenflor </title>
+
     <style>
-        #terms:hover{
-            color: red;
+        #hoverme:hover{
+            color: blue;
+            cursor: pointer;
             text-decoration: underline;
         }
-        #terms :active{
-            color: blue;
+
+        #hoverme:active{
+            color: red;
+
         }
-        #terms{
+        #hoverme{
             color: blue;
-            font-style: italic;
-            
         }
     </style>
 
 </head>
 <body>
-    <h1 style="text-align: center;">LOG IN TO SHOP</h1>
+    <h1 style="text-align: center;">Log into kenflora</h1>
     <br>
 
     <form>
         <!-- "Name represents a variable for input(user)"-->
         <div>
             <label for="firstname">First name: </label>
-            <input type="text" id="firsname" name="firstname"placeholder="e.g john" required>
+            <input type="text" id="firsname" name="firstname" placeholder="e.g john" required>
         </div>
         <br>
 
         <div>
             <label for="pass">Enter password: </label>
-            <input type="password" id="pass" name="passw"placeholder="password"required maxlength="20">
+            <input type="password" id="pass" name="pass" placeholder="password"required maxlength="20">
         </div>
         <br>
 
         <div>
             <label for="mail">Enter mail: </label>
-            <input type="email" id="mail " name="mail" placeholder="Input email">
+            <input type="email" id="mail " name="name" placeholder="Input email">
         </div>
         <br>
 
@@ -55,27 +57,40 @@
             <label for="age">Enter Age: </label>
             <input type="number" id="age" name="userage"  min="1" max="99" value="1">
         </div>
-    
-
-        <p style="margin-left: 70px;">Select Gender: </p>
+        <br>
 
         <div>
-
+            <label style="margin-left: 70px;" for = "title">Select Gender: </label>
+            <br>
+            
             <input type="radio" id="male" name="title">
             <label for="male">Male </label>
-    
-            <input type="radio"  id="fmale"name="title">
-            <label for="fmale">Female </label>
 
-            <input type="radio" id="customg" name="title">
-            <label for="customg">Prefer not to say</label> 
+            <input type="radio" id="fmale" name="title">
+            <label for="fmale">Female </label>
+            
+
+            <input type="radio" id="gencus"name="title">
+            <label for="gencus">Prefer not to say</label> 
+            
             
         </div>
-        <br> 
+        <br>
+        
 
         <div>
-            <input type="checkbox" id="checkbox">
-            <label for="checkbox">Yes, I agree to <span id="terms">terms and condition</span> in this site.</label>
+            <label>Yes, I accept the <span id="hoverme">terms and privacy</span> in this website</label>
+        </div>
+        <br>
+
+        <div>
+            <label for="payment">You can donate us through:</label>
+                <select id="payment" name="payment">
+                    <option></option>
+                    <option>Gcash</option>
+                    <option>MayaPay</option>
+                    <option>Paypal</option>
+                </select>
         </div>
         <br>
 

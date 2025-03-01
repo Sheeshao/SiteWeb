@@ -7,7 +7,32 @@ header{
     font-weight: bold;
 }
 
+
+header{
+    margin-bottom: 5px;
+}
+
+header:hover{
+    color: #2274A5;
+    text-decoration:overline underline;
+    
+}
+
+p{
+    text-align:center;
+}
+
+a{
+    color: white;
+}
+
 h1{
     text-align:center;
     
 }
+
+#backgroundkeyboard {
+    width: 1000px;
+    height: 1000px;
+}
+
