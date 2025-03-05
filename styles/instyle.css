@@ -1,15 +1,44 @@
+html,body {
+    background-image: url(officekeyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
 body{
-    background-color: #131B23;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
 }
 
-header{
+.stickyheader{
+    position: sticky;
+    top: 0px;
+    width: auto;
+    height: 120px;
+    background: #131B23;
+    margin: left 0px;
+    padding-bottom: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+.stickyheader h1{
+    text-align: center;
+    margin-top: 0px;
+    
+}
+.textheader header{
     text-align:center;
     font-weight: bold;
+
 }
 
-
-header{
-    margin-bottom: 5px;
+.hdtxt p{
+    text-align:center;
+    font-weight: bold;
+    font-size:800%;
 }
 
 header:hover{
@@ -17,22 +46,3 @@ header:hover{
     text-decoration:overline underline;
     
 }
-
-p{
-    text-align:center;
-}
-
-a{
-    color: white;
-}
-
-h1{
-    text-align:center;
-    
-}
-
-#backgroundkeyboard {
-    width: 1000px;
-    height: 1000px;
-}
-
