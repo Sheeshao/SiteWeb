@@ -13,36 +13,22 @@ body{
 }
 
 .stickyheader{
-    position: sticky;
-    top: 0px;
-    width: auto;
-    height: 120px;
-    background: #131B23;
-    margin: left 0px;
-    padding-bottom: 4px;
-    margin-left: 0px;
-    margin-right: 0px;
-    
-}
-.stickyheader h1{
     text-align: center;
-    margin-top: 0px;
-    
+    position: sticky;
+    background-color: #131B23;
+    height: 775;
 }
-.textheader header{
-    text-align:center;
-    font-weight: bold;
 
+.stickyheader img{
+    position: relative;
+    height: 55px;
+    width: 55px;
 }
+
+
 
 .hdtxt p{
     text-align:center;
     font-weight: bold;
     font-size:800%;
-}
-
-header:hover{
-    color: #2274A5;
-    text-decoration:overline underline;
-    
 }
