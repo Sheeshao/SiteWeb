@@ -1,0 +1,41 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    background-color: #131B23;
+    margin: 0;
+   
+
+}
+
+nav{
+    background-color: #131B23;
+    position: sticky;    
+    top: 0;
+    height: 100px;
+    width: 1365px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navicon img{
+    height: 80px;
+    width: 80px;
+    margin-left: 70px;
+}
+
+#navcontainer a{
+    color: #E9F1F7;
+    text-decoration: none;
+    margin-right: 60px;
+    font-family: sans-serif,Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    
+}
+
+section p{
+    color: #E9F1F7;
+}
